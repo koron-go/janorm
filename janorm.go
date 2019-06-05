@@ -88,7 +88,7 @@ func cleanup(s string) string {
 		lastZenbar = r == 'ー'
 		lastZenkaku = isZenkaku(r)
 	}
-	if lastSpace {
+	if lastSpace && len(b) > 0 {
 		b = b[:len(b)-1]
 	}
 	return string(b)
