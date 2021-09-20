@@ -78,9 +78,9 @@ func cleanup(s string) string {
 				continue
 			}
 		default:
+			// remove a last space when zenkaku is after that.
 			if lastSpace && isZenkaku(r) && len(b) > 0 {
 				b = b[:len(b)-1]
-				lastSpace = false
 			}
 		}
 		b = append(b, r)
