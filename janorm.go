@@ -1,3 +1,6 @@
+/*
+Package janorm provides character normalizer for Japanese.
+*/
 package janorm
 
 import "golang.org/x/text/width"
@@ -70,18 +73,15 @@ func cleanup(s string) string {
 			if lastSpace || lastZenkaku {
 				continue
 			}
-			break
 		case 'ー':
 			if lastZenbar {
 				continue
 			}
-			break
 		default:
 			if lastSpace && isZenkaku(r) && len(b) > 0 {
 				b = b[:len(b)-1]
 				lastSpace = false
 			}
-			break
 		}
 		b = append(b, r)
 		lastSpace = r == ' '
