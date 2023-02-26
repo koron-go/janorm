@@ -1,7 +1,5 @@
-github.com/google/go-cmp v0.5.6/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
-github.com/koron-go/trietree v0.0.1 h1:RWeNop0hgJTqsboL+6OokYhQNBEZNq376TMhdWu+5qs=
-github.com/koron-go/trietree v0.0.1/go.mod h1:bAe/3pdYLHRF98F7ISv0H+9hJpt9AOqK2yH5K2WxXh8=
-golang.org/x/text v0.3.7 h1:olpwvP2KacW1ZWvsR7uQhoyTYvKAupfQrRGBFM352Gk=
-golang.org/x/text v0.3.7/go.mod h1:u+2+/6zg+i71rQMx5EYifcz6MCKuco9NR6JIITiCfzQ=
-golang.org/x/tools v0.0.0-20180917221912-90fa682c2a6e/go.mod h1:n7NCudcB/nEzxVGmLbDWY5pfWTLqBcC2KZ6jyYvM4mQ=
-golang.org/x/xerrors v0.0.0-20191204190536-9bdfabe68543/go.mod h1:I/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=
+github.com/google/go-cmp v0.5.9 h1:O2Tfq5qg4qc4AmwVlvv0oLiVAGB7enBSJ2x2DqQFi38=
+github.com/koron-go/trietree v0.0.3 h1:u0lEBuwDGFEiPED8/Uiqtx/e0pdj6CYtxPCpml1hzAc=
+github.com/koron-go/trietree v0.0.3/go.mod h1:DkejSGuvETmvI5+OOfhdyCqgKiZxWxCbW1ZcIQ6sBT0=
+golang.org/x/text v0.7.0 h1:4BRB4x83lYWy72KwLD/qYDuTu7q9PjSagHvijDw7cLo=
+golang.org/x/text v0.7.0/go.mod h1:mrYo+phRRbMaCq/xk9113O4dZlRixOauAjOtrjsXDZ8=
