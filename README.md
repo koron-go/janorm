@@ -1,7 +1,7 @@
 # Japanese Charaters Normalization
 
-[![GoDoc](https://godoc.org/github.com/koron-go/janorm?status.svg)](https://godoc.org/github.com/koron-go/janorm)
-[![CircleCI](https://img.shields.io/circleci/project/github/koron-go/janorm/master.svg)](https://circleci.com/gh/koron-go/janorm/tree/master)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/koron-go/janorm)](https://pkg.go.dev/github.com/koron-go/janorm)
+[![Actions/Go](https://github.com/koron-go/janorm/workflows/Go/badge.svg)](https://github.com/koron-go/janorm/actions?query=workflow%3AGo)
 [![Go Report Card](https://goreportcard.com/badge/github.com/koron-go/janorm)](https://goreportcard.com/report/github.com/koron-go/janorm)
 
 日本語の文字(キャラクタ)を検索等に適した形に正規化します。
